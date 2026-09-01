@@ -179,15 +179,28 @@ main { flex: 1; padding: 2.5rem 0 3rem; }
 }
 .mod-item strong { display: block; margin-bottom: 0.15rem; }
 .mod-item span { color: var(--muted); font-size: 0.78rem; }
+
 footer {
   border-top: 1px solid var(--border);
   padding: 1.75rem 0;
-  text-align: center;
   color: var(--muted);
   font-size: 0.85rem;
 }
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+}
+.footer-left { text-align: left; }
+.footer-right { text-align: right; }
 footer a { color: var(--accent); text-decoration: none; }
 footer a:hover { text-decoration: underline; }
+@media (max-width: 500px) {
+  .footer-inner { flex-direction: column; text-align: center; }
+  .footer-left, .footer-right { text-align: center; width: 100%; }
+}
 @media (max-width: 600px) {
   .nav { flex-direction: column; align-items: flex-start; }
 }
