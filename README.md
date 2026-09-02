@@ -8,7 +8,7 @@ Lightweight **Fabric** performance modpack for Minecraft.
 
 | Minecraft | Pack Version |
 |-----------|--------------|
-| 26.2      | Latest       |
+| 26.2      | v1.0.3       |
 | 1.21.11   | v1.0.2       |
 | 1.21.4    | v1.0.1       |
 | 1.21.1    | v1.0.0       |
@@ -43,6 +43,7 @@ Recommended: 6–8 GB allocated RAM.
 
 - [Modrinth](https://modrinth.com/modpack/killfps)
 - [Website](https://mc-kaan.github.io/KillFPS-/)
+- [Discord](https://discord.gg/PwjU3YpJ7g)
 - Discord: `kaanvip`
 
 ## License
